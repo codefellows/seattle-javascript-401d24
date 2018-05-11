@@ -6,6 +6,7 @@
 * Students will be able to create commonjs modules
 * Students will be able to to create unit tests for synchronous Javascript code
 * Students will be able to use to test driven development methodologies
+* Students will be able to connect their github repository to travis-ci for hot build testing
 
 ## Resources
 * Read [about nodejs]
@@ -42,6 +43,9 @@ Write code to pass the specifications of your tests, without making it perfect. 
 
 ###### REFACTOR
 Refactor your code for speed, memory optimization, and most importantly **readability**. Your tests should still pass after this step.
+
+### Continuous Deployment
+[Continuous build testing with Travis](ci-and-deployment/README.md)
 
 <!--links -->
 [about nodejs]: https://nodejs.org/en/about/
