@@ -18,7 +18,7 @@ let useTheCallback = (cb) => {
   cb(text);
 };
 
-useTheCallback(myCallback);
+// useTheCallback(myCallback);
 
 
 // ERROR FIRST Callbacks --- always expect to be called with the first parameter being either an
@@ -27,13 +27,16 @@ useTheCallback(myCallback);
 
 let errorFirstCallback = (err, data) => {
   if ( err ) { throw err; }
-  console.log('Received', data);
+  // Make it asynchronous to see that things happen in a seemingly "random" order ...
+  setTimeout( () => console.log('Received', data), Math.floor(Math.random() * 500) );
 };
 
 let useTheErrorFirstCallback = (cb) => {
   // do lots of work and come up with some text
   let text = 'some random text';
+  console.log("Calling it");
   cb(undefined, text);
+  console.log("Done");
 };
 
 
