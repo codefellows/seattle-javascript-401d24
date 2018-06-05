@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) 18: Asset Management
+![cf](http://i.imgur.com/7v5ASc8.png) 19: Asset Management
 ===
 
 ## Learning Objectives
