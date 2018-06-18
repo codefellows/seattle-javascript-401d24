@@ -42,3 +42,20 @@ To deploy a React App on Heroku, you need to do the following
 * Deploy a static express application pointed to your "public" folder
 * Add a postinstall build script in your package.json that will build your react app
  * `"postinstall": "npm run build"`
+ 
+ #### Configuration  
+ Your lab directory must/should include  
+ * **README.md** -- with documention about your lab
+ * **.gitignore** -- with a robust gitignore
+ * **.eslintrc.json** -- with the class .eslintrc.json file
+ * **.eslintignore** -- with the class .eslintignore
+ * **.babelrc** -- with all dependencies and dev-dependencies 
+ * **package.json** -- with all dependencies and dev-dependencies 
+ * **webpack.common.js** -- common webpack config
+ * **webpack.dev.js** -- dev webpack config
+ * **webpack.prod.js** -- production webpack config
+ * **src/** -- containing the frontend code
+ * **src/main.js** -- containing the entire app
+ * **src/style** -- containing your sass
+ * **src/style/main.scss** -- containing the frontend code
+ * **src/components/... -- your code structure
