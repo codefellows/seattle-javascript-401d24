@@ -1,0 +1,22 @@
+#items {
+  ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+
+    li{
+      .edit, .delete, form, span {
+        display:inline-block;
+        margin:.5em;
+        font-size:1.5em;
+      }
+      .edit, .delete {
+        text-decoration:none;
+      }
+
+      .delete {
+        color:red;
+      }
+    }
+  }
+}
