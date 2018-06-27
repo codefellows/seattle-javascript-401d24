@@ -1,3 +1,11 @@
+@import '../../style/mixins/borders';
+
+.modal {
+    @include box-3d;
+    height:auto !important;
+    width: 60% !important;
+}
+
 .overlay {
 
     bottom:0;
