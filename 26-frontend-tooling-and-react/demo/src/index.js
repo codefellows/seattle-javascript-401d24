@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDom from 'react-dom'
+import ReactDom from 'react-dom';
 
 import './style/app.scss';
 
@@ -10,7 +10,7 @@ class Header extends React.Component {
       <header>
         <h1>Our Counter</h1>
       </header>
-    )
+    );
   }
 
 }
@@ -24,11 +24,9 @@ class App extends React.Component {
     this.handleUp = this.handleUp.bind(this);
     this.updateState = this.updateState.bind(this);
 
-    // SG: Make a reset value
-    // SG: Care about the polarity
     this.state = {
       counter: 0,
-      polarity: "neutral"
+      polarity: 'neutral',
     };
   }
 
@@ -43,23 +41,22 @@ class App extends React.Component {
 
   updateState(counter) {
     let polarity = null;
-    if (counter > 0) { polarity = "positive"; }
-    if (counter < 0) { polarity = "negative"; }
+    if (counter > 0) { polarity = 'positive'; }
+    if (counter < 0) { polarity = 'negative'; }
     this.setState({ counter, polarity });
   }
 
   render() {
     return (
       <div>
-
-                <Header />
-                <div id="counterWrapper">
-                    <div id="counter" className={this.state.polarity}>{this.state.counter}</div>
-                    <a href="#" onClick={this.handleUp} id="up">U</a>
-                    <a href="#" onClick={this.handleDown} id="down">D</a>
-                </div>
-            </div>
-    )
+        <Header />
+        <div id="counterWrapper">
+          <div id="counter" className={this.state.polarity}>{this.state.counter}</div>
+          <a href="#" onClick={this.handleUp} id="up">U</a>
+          <a href="#" onClick={this.handleDown} id="down">D</a>
+        </div>
+      </div>
+    );
   }
 
 }
