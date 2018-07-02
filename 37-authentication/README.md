@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) 37: Cookies
+![cf](http://i.imgur.com/7v5ASc8.png) Authentication & Cookies
 ===
 
 ## Learning Objectives
