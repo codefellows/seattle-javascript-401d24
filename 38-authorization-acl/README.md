@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Role Based Access Control
+![cf](http://i.imgur.com/7v5ASc8.png) Role Based Access Control (Authorization)
 ====
 
 ## Learning Objectives
@@ -7,6 +7,7 @@
 ## Readings
 * Read [role based access control](https://en.wikipedia.org/wiki/Role-based_access_control)
 * Read [access control in node](https://blog.nodeswat.com/implement-access-control-in-node-js-8567e7b484d1)
+* Read [rbac in react](https://hackernoon.com/role-based-authorization-in-react-c70bb7641db4)
 * Skim [rbac discussions](https://softwareengineering.stackexchange.com/questions/299729/role-vs-permission-based-access-control)
 * Skim [permissions based access (gist)](https://gist.github.com/joshnuss/37ebaf958fe65a18d4ff)
 
